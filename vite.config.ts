@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "https://terrysu418.github.io/results-summary-component-main",
+  base: "/Fontend-Mentor-results-summary-component-main/",
   plugins: [react(), tailwindcss(),],
 })
