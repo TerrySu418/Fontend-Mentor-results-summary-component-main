@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+    :root {
+       @apply bg-paleblue    
+     }
+}
+
+@theme {
+     
+   /* Primary Colors */
+  --color-lightred: hsl(0, 100%, 67%);
+  --color-orangyyellow: hsl(39, 100%, 56%);
+  --color-greenteal: hsl(166, 100%, 37%);
+  --color-cobaltblue: hsl(234, 85%, 45%);
+
+  /* Neutral Colors */
+  --color-white: hsl(0, 0%, 100%);
+  --color-paleblue: hsl(221, 100%, 96%);
+  --color-lightlavender: hsl(241, 100%, 89%);
+  --color-grayblue: hsl(224, 30%, 27%);
+}
+
+
+@layer utilities {
+  .bg-gradient-slate-royal {
+    background-image: linear-gradient(
+      to bottom,
+      hsl(252, 100%, 67%),
+      hsl(241, 81%, 54%)
+    );
+  }
+
+  .bg-gradient-circle {
+    background-image: linear-gradient(
+      to bottom,
+      hsla(256, 72%, 46%, 1),
+      hsla(241, 72%, 46%, 0)
+    );
+  }
+} 
+
+
+@layer base {
+    html {
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+
+    .front-medium {
+        font-weight: 500;
+    }
+
+    .font-bold {
+        font-weight: 700;
+    }
+
+    .font-extrabold {
+        font-weight: 800;
+    }
+}
+
