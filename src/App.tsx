@@ -1,4 +1,4 @@
-import ScoreRow from "./components/Scorerow"
+import ScoreRow from './components/ScoreRow';
 import { Zap, Brain, MessageSquare, Eye } from 'lucide-react';
 
 function App() {
